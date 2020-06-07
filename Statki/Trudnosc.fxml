@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="577.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Statki.StatkiController">
+   <children>
+      <Label layoutX="92.0" layoutY="228.0" text="Wybierz poziom trudności">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="poziom" layoutX="141.0" layoutY="309.0" prefHeight="25.0" prefWidth="159.0" promptText="Normal">
+       <items>
+           <FXCollections fx:factory="observableArrayList">
+               <String fx:value="Easy" />
+               <String fx:value="Normal" />
+           </FXCollections>
+       </items>
+      </ComboBox>
+      <Button fx:id="submit" layoutX="353.0" layoutY="302.0" mnemonicParsing="false" onMouseClicked="#poziomSubmit" text="Submit">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

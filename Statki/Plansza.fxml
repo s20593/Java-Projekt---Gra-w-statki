@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="557.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Statki.StatkiController2">
+   <children>
+      <Label fx:id="wynik" alignment="CENTER" layoutX="24.0" layoutY="226.0" prefHeight="42.0" prefWidth="574.0" text="Label" textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <GridPane fx:id="grd" focusTraversable="true" hgap="3.0" layoutX="122.0" layoutY="65.0" prefHeight="350.0" prefWidth="350.0" vgap="3.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button id="b00" fx:id="b00" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" />
+            <Button fx:id="b01" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" />
+            <Button fx:id="b02" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" />
+            <Button fx:id="b03" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" />
+            <Button fx:id="b04" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" />
+            <Button fx:id="b05" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" />
+            <Button fx:id="b06" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" />
+            <Button fx:id="b07" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" />
+            <Button fx:id="b08" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" />
+            <Button fx:id="b09" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" />
+            <Button fx:id="b10" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="1" />
+            <Button fx:id="b11" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="b12" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="b13" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="b14" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="b15" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="b16" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="b17" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="b18" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="b19" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button fx:id="b20" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="2" />
+            <Button fx:id="b21" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="b22" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="b23" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="b24" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="b25" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="b26" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="b27" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="b28" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Button fx:id="b29" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Button fx:id="b30" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="3" />
+            <Button fx:id="b31" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="b32" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="b33" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="b34" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="b35" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="b36" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="b37" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button fx:id="b38" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Button fx:id="b39" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Button fx:id="b40" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="4" />
+            <Button fx:id="b41" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="b42" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="b43" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="b44" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="b45" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="b46" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="b47" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button fx:id="b48" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Button fx:id="b49" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Button fx:id="b50" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="5" />
+            <Button fx:id="b51" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="b52" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="b53" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="b54" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button fx:id="b55" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button fx:id="b56" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="b57" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Button fx:id="b58" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Button fx:id="b59" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Button fx:id="b60" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="6" />
+            <Button fx:id="b61" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button fx:id="b62" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="b63" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button fx:id="b64" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Button fx:id="b65" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Button fx:id="b66" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button fx:id="b67" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Button fx:id="b68" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Button fx:id="b69" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <Button fx:id="b70" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="7" />
+            <Button fx:id="b71" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button fx:id="b72" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Button fx:id="b73" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Button fx:id="b74" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Button fx:id="b75" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Button fx:id="b76" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Button fx:id="b77" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Button fx:id="b78" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <Button fx:id="b79" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+            <Button fx:id="b80" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="8" />
+            <Button fx:id="b81" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Button fx:id="b82" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Button fx:id="b83" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Button fx:id="b84" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Button fx:id="b85" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Button fx:id="b86" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Button fx:id="b87" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <Button fx:id="b88" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+            <Button fx:id="b89" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+            <Button fx:id="b90" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="9" />
+            <Button fx:id="b91" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Button fx:id="b92" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Button fx:id="b93" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Button fx:id="b94" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Button fx:id="b95" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Button fx:id="b96" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Button fx:id="b97" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+            <Button fx:id="b98" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+            <Button fx:id="b99" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#setStatek" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+         </children>
+      </GridPane>
+      <HBox fx:id="litery" layoutX="122.0" layoutY="38.0" maxHeight="27.0" maxWidth="377.0" minHeight="27.0" minWidth="377.0" prefHeight="27.0" prefWidth="377.0" spacing="3.0">
+         <children>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="A" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="B" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="C" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="D" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="E" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="F" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="G" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="H" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="I" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" maxHeight="27.0" maxWidth="35.0" minHeight="27.0" minWidth="35.0" prefHeight="27.0" prefWidth="35.0" text="J" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox fx:id="liczby" layoutX="95.0" layoutY="65.0" maxHeight="377.0" maxWidth="27.0" minHeight="377.0" minWidth="27.0" prefHeight="377.0" prefWidth="27.0" spacing="3.0">
+         <children>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="1" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="2" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="3" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="4" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="5" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="6" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="7" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="8" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="9" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+            <Label alignment="CENTER" maxHeight="35.0" maxWidth="27.0" minHeight="35.0" minWidth="27.0" prefHeight="35.0" prefWidth="27.0" text="10" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="3.0" />
+               </padding>
+            </Label>
+         </children>
+      </VBox>
+      <Label fx:id="tekst" layoutX="122.0" layoutY="448.0" prefHeight="86.0" prefWidth="377.0" text="Faza ustawiania&#10;Statki z powodu dużego prądu, płyną w prawą strone&#10;Ustaw statek zajmujacy 1 pole">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <GridPane fx:id="grd1" disable="true" focusTraversable="true" hgap="3.0" layoutX="122.0" layoutY="65.0" prefHeight="350.0" prefWidth="350.0" vgap="3.0" visible="false">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="35.0" minWidth="35.0" prefWidth="35.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="35.0" minHeight="35.0" prefHeight="35.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button id="b00" fx:id="b001" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" />
+            <Button fx:id="b011" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" />
+            <Button fx:id="b021" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" />
+            <Button fx:id="b031" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" />
+            <Button fx:id="b041" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" />
+            <Button fx:id="b051" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" />
+            <Button fx:id="b061" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" />
+            <Button fx:id="b071" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" />
+            <Button fx:id="b081" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" />
+            <Button fx:id="b091" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" />
+            <Button fx:id="b101" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="1" />
+            <Button fx:id="b111" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="b121" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="b131" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="b141" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="b151" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="b161" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="b171" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="b181" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="b191" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button fx:id="b201" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="2" />
+            <Button fx:id="b211" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="b221" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="b231" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="b241" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="b251" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="b261" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="b271" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="b281" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Button fx:id="b291" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Button fx:id="b301" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="3" />
+            <Button fx:id="b311" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="b321" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="b331" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="b341" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="b351" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="b361" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="b371" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button fx:id="b381" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Button fx:id="b391" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Button fx:id="b401" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="4" />
+            <Button fx:id="b411" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="b421" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="b431" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="b441" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="b451" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="b461" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="b471" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button fx:id="b481" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Button fx:id="b491" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Button fx:id="b501" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="5" />
+            <Button fx:id="b511" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="b521" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="b531" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="b541" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button fx:id="b551" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button fx:id="b561" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="b571" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Button fx:id="b581" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Button fx:id="b591" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Button fx:id="b601" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="6" />
+            <Button fx:id="b611" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button fx:id="b621" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="b631" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button fx:id="b641" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Button fx:id="b651" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Button fx:id="b661" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button fx:id="b671" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Button fx:id="b681" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Button fx:id="b691" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <Button fx:id="b701" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="7" />
+            <Button fx:id="b711" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button fx:id="b721" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Button fx:id="b731" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Button fx:id="b741" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Button fx:id="b751" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Button fx:id="b761" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Button fx:id="b771" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Button fx:id="b781" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <Button fx:id="b791" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+            <Button fx:id="b801" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="8" />
+            <Button fx:id="b811" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Button fx:id="b821" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Button fx:id="b831" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Button fx:id="b841" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Button fx:id="b851" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Button fx:id="b861" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Button fx:id="b871" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <Button fx:id="b881" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+            <Button fx:id="b891" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+            <Button fx:id="b901" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.rowIndex="9" />
+            <Button fx:id="b911" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Button fx:id="b921" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Button fx:id="b931" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Button fx:id="b941" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Button fx:id="b951" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Button fx:id="b961" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Button fx:id="b971" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+            <Button fx:id="b981" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+            <Button fx:id="b991" maxHeight="35.0" maxWidth="35.0" minHeight="35.0" minWidth="35.0" mnemonicParsing="false" onMouseClicked="#attack" prefHeight="35.0" prefWidth="35.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+         </children>
+      </GridPane>
+      <Button fx:id="replay" layoutX="229.0" layoutY="428.0" mnemonicParsing="false" onMouseClicked="#replayStart" text="Zagraj jeszcze raz" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="67.0" layoutY="136.0" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: lightblue; -fx-border-color: gray;" />
+      <Label layoutX="24.0" layoutY="135.0" text="Woda" />
+      <Button layoutX="67.0" layoutY="159.0" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: blue; -fx-border-color: gray;" />
+      <Label layoutX="24.0" layoutY="158.0" text="Pudło" />
+      <Button layoutX="67.0" layoutY="185.0" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: red; -fx-border-color: gray;" />
+      <Label layoutX="19.0" layoutY="184.0" text="Trafiony" />
+      <Button layoutX="67.0" layoutY="210.0" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: darkred; -fx-border-color: gray;" />
+      <Label layoutX="8.0" layoutY="209.0" text="Zatopiony" />
+      <Button layoutX="67.0" layoutY="238.0" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: gray; -fx-border-color: gray;" />
+      <Label layoutX="8.0" layoutY="237.0" text="Obrazenia" />
+      <Button layoutX="67.0" layoutY="263.0" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: black; -fx-border-color: gray;" />
+      <Label layoutX="4.0" layoutY="262.0" text="Zniszczony" />
+      <Button layoutX="67.0" layoutY="111.0" maxHeight="15.0" maxWidth="15.0" minHeight="15.0" minWidth="15.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="15.0" style="-fx-background-color: white; -fx-border-color: gray;" />
+      <Label layoutX="26.0" layoutY="110.0" text="Gracz" />
+   </children>
+</AnchorPane>
